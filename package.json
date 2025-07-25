@@ -4,12 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build && copy CNAME dist\\",
-    "deploy": "gh-pages -d dist",
     "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "deployfull": "npm run build && npm run deploy"
+    "build": "vite build"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
