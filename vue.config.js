@@ -1,6 +1,4 @@
-module.exports = {
-    devServer: {
-        https: true,
-        // Other configurations like host and port can be added here as needed
-    }
-};
+const { defineConfig } = require('@vue/cli-service')
+module.exports = defineConfig({
+  transpileDependencies: true
+})
