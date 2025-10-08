@@ -230,7 +230,7 @@
 
 <script setup>
 import navbar from '@/bb/navbar.vue';
-import image from '../assets/images/bg/bg-developer.png';
+import image from './assets/bg-developer.png';
 import footers from '@/bb/footer.vue';
 import backtotop from '@/bb/back-to-top.vue'
 import VueTypewriterEffect from "vue-typewriter-effect";

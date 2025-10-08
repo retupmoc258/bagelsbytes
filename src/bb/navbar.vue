@@ -66,6 +66,7 @@
 </template>
 
 <script setup>
+// TODO Figure out why the menu bar changes color on Contact Page (Without nav-sticky) but goes normal for nav-sticky.
 import { ref, computed, onMounted, onUnmounted, defineProps } from 'vue';
 
 const activeIndex = computed(() => window.location.pathname)

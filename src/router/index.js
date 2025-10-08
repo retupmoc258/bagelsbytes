@@ -35,7 +35,7 @@ const routes = [
   {
     path: "/contact",
     name: "contact",
-    component: () => import('@/pages/contact.vue'),
+    component: () => import('@/bb/contact.vue'),
   },
   {
     path: "/profile",
