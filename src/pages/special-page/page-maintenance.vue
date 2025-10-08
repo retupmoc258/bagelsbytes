@@ -43,7 +43,7 @@
 
 <script setup>
 import image from '../../assets/images/bg/maintenance.jpg';
-import backto from '@/components/back-to-top.vue'
+import backto from '@/bb/back-to-top.vue'
 import { ref, onMounted } from 'vue';
 
 let timer = ref(60 * 60) // 1 hour in seconds

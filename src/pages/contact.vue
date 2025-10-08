@@ -35,8 +35,8 @@ import shape from '@/components/shape-light.vue';
 import forms from '@/components/contact/form.vue';
 import contactitem from '@/components/contact/contact-item.vue';
 import maps from '@/components/contact/map.vue';
-import footers from '@/components/footer/footer.vue';
-import backtotop from '@/components/back-to-top.vue';
+import footers from '@/bb/footer.vue';
+import backtotop from '@/bb/back-to-top.vue';
 
 </script>
 

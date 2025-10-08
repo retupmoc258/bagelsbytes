@@ -15,8 +15,8 @@
 import navbar from '@/bb/navbar.vue';
 import hero from '@/components/portfolio/portfolio-hero.vue';
 import classicitem from '@/components/portfolio/classic-portfolio/classic-item.vue';
-import footers from '@/components/footer/footer.vue';
-import backtotop from '@/components/back-to-top.vue'
+import footers from '@/bb/footer.vue';
+import backtotop from '@/bb/back-to-top.vue'
 
 </script>
 

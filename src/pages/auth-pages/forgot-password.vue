@@ -49,7 +49,7 @@
 
 <script setup>
 import image from '../../assets/images/bg/bg-lines-one.png';
-import backto from '@/components/back-to-top.vue'
+import backto from '@/bb/back-to-top.vue'
 
 </script>
 

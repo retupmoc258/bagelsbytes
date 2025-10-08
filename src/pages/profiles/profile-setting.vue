@@ -28,8 +28,8 @@
 import navbar from '@/bb/navbar.vue';
 import image from '../../assets/images/bg/bg-lines-one.png';
 import settings from '@/components/profile/profile-setting.vue';
-import footers from '@/components/footer/footer.vue';
-import backtotop from '@/components/back-to-top.vue'
+import footers from '@/bb/footer.vue';
+import backtotop from '@/bb/back-to-top.vue'
 
 </script>
 

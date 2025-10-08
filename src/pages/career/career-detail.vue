@@ -58,8 +58,8 @@
 import { ref, onMounted } from 'vue'
 import navbar from '@/bb/navbar.vue';
 import detail from '@/components/career/career-detail.vue';
-import footers from '@/components/footer/footer.vue';
-import backtotop from '@/components/back-to-top.vue'
+import footers from '@/bb/footer.vue';
+import backtotop from '@/bb/back-to-top.vue'
 import { useRoute } from 'vue-router';
 
 const data = ref('');

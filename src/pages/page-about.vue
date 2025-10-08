@@ -44,8 +44,8 @@ import story from '@/components/page-about/about-story.vue';
 import images from '@/components/startup/startup-images.vue';
 import counter from '@/components/startup/startup-counter.vue';
 import teams from '@/components/business/business-team.vue';
-import footers from '@/components/footer/footer.vue';
-import backtotop from '@/components/back-to-top.vue'
+import footers from '@/bb/footer.vue';
+import backtotop from '@/bb/back-to-top.vue'
 
 </script>
 

@@ -50,7 +50,7 @@
 
 <script setup>
 import image from '../../assets/images/bg/comingsoon.jpg';
-import backto from '@/components/back-to-top.vue'
+import backto from '@/bb/back-to-top.vue'
 import { ref, computed, watch} from 'vue'
 
 const now = ref(new Date().getTime())
