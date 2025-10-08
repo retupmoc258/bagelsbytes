@@ -10,7 +10,7 @@
 </template>
 
 <script setup>
-import navbar from '@/components/navbar/navbar.vue';
+import navbar from '@/bb/navbar.vue';
 import hero from '@/components/portfolio/portfolio-hero.vue';
 import masonryitem from '@/components/portfolio/masonry-portfolio/masonry-item.vue';
 import footers from '@/components/footer/footer.vue';

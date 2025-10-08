@@ -6,17 +6,17 @@
                         <div v-if="logoLight">
                                 <router-link class="logo" to="/">
                                         <span class="logo-light-mode">
-                                                <img src="../../assets/images/logo-dark.png" class="l-dark" alt="">
-                                                <img src="../../assets/images/logo-light.png" class="l-light" alt="">
+                                                <img src="../assets/images/logo-dark.png" class="l-dark" alt="">
+                                                <img src="../assets/images/logo-light.png" class="l-light" alt="">
                                         </span>
-                                        <img src="../../assets/images/logo-light.png" class="logo-dark-mode" alt="">
+                                        <img src="../assets/images/logo-light.png" class="logo-dark-mode" alt="">
                                 </router-link>
                         </div>
 
                         <div v-else>
                                 <router-link class="logo" to="/">
-                                        <img src="../../assets/images/logo-dark.png" class="logo-light-mode" alt="">
-                                        <img src="../../assets/images/logo-light.png" class="logo-dark-mode" alt="">
+                                        <img src="../assets/images/logo-dark.png" class="logo-light-mode" alt="">
+                                        <img src="../assets/images/logo-light.png" class="logo-dark-mode" alt="">
                                 </router-link>
                         </div>
 

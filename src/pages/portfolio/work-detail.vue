@@ -96,7 +96,7 @@
 
 <script setup>
 import { ref, onMounted } from 'vue';
-import navbar from '@/components/navbar/navbar.vue';
+import navbar from '@/bb/navbar.vue';
 import work from '../../assets/images/work/1.jpg';
 import work2 from '../../assets/images/work/2.jpg';
 import work3 from '../../assets/images/work/3.jpg';

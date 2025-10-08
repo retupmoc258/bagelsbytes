@@ -36,7 +36,7 @@
 </template>
 
 <script setup>
-import navbar from '@/components/navbar/navbar.vue';
+import navbar from '@/bb/navbar.vue';
 import image from '../assets/images/bg/bg-lines-one.png';
 import shape from '@/components/shape-light.vue';
 import teams from '@/components/page-team/teams.vue';

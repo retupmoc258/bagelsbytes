@@ -107,7 +107,7 @@
 
 <script setup>
 import { ref, onMounted } from 'vue';
-import navbar from '@/components/navbar/navbar.vue';
+import navbar from '@/bb/navbar.vue';
 import relatedblog from '@/components/blogs/blog-related.vue';
 import footers from '@/components/footer/footer.vue';
 import backtotop from '@/components/back-to-top.vue';

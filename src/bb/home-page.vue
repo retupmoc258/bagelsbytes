@@ -26,7 +26,7 @@
                 </div><!--end col-->
 
                 <div class="col-lg-7 col-md-6">
-                    <img src="../../assets/images/svg/pixeltrue-web-development-1.svg" class="img-fluid" alt="">
+                    <img src="../assets/images/svg/pixeltrue-web-development-1.svg" class="img-fluid" alt="">
                 </div><!--end col-->
             </div><!--end row-->
         </div><!--end container-->
@@ -74,8 +74,8 @@
 
 <script setup>
 import { ref } from 'vue'
-import navbar from '@/components/navbar/navbar.vue';
-import image from '../../assets/images/bg/bg-developer.png';
+import navbar from '@/bb/navbar.vue';
+import image from '../assets/images/bg/bg-developer.png';
 import logos from '@/components/company-logos.vue';
 import features from '@/components/developer/dev-feature.vue';
 import detail from '@/components/developer/dev-detail.vue';

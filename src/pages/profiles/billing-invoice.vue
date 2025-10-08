@@ -209,7 +209,7 @@
 </template>
 
 <script setup>
-import navbar from '@/components/navbar/navbar.vue';
+import navbar from '@/bb/navbar.vue';
 import image from '../../assets/images/bg/bg-lines-one.png';
 import imagebg from '../../assets/images/bg/bg-invoice.png';
 import footers from '@/components/footer/footer.vue';

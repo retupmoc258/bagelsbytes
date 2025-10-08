@@ -37,7 +37,7 @@
 </template>
 
 <script setup>
-import navbar from '@/components/navbar/navbar.vue';
+import navbar from '@/bb/navbar.vue';
 import image from '../../assets/images/bg/bg-blog.jpg';
 import blog from '@/components/blogs/blogs.vue';
 import footers from '@/components/footer/footer.vue';

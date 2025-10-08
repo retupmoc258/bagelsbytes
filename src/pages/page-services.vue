@@ -59,7 +59,7 @@
 
 <script setup>
 import { ref } from 'vue';
-import navbar from '@/components/navbar/navbar.vue';
+import navbar from '@/bb/navbar.vue';
 import image from '../assets/images/bg/bg-services.jpg';
 import features from '@/components/business/business-services.vue';
 import cta from '@/components/career-job/career-cta.vue';

@@ -1,80 +1,11 @@
 import { createWebHistory, createRouter } from "vue-router";
 
 const routes = [
+
   {
     path: "/",
-    name: "index",
-    component: () => import('@/pages/index/index.vue'),
-  },
-  {
-    path: "/index-app",
-    name: "index-app",
-    component: () => import('@/pages/index/index-app.vue'),
-  },
-  {
-    path: "/index-saas",
-    name: "index-saas",
-    component: () => import('@/pages/index/index-saas.vue'),
-  },
-  {
-    path: "/index-software",
-    name: "index-software",
-    component: () => import('@/pages/index/index-software.vue'),
-  },
-  {
-    path: "/index-career",
-    name: "index-career",
-    component: () => import('@/pages/index/index-career.vue'),
-  },
-  {
-    path: "/index-crypto",
-    name: "index-crypto",
-    component: () => import('@/pages/index/index-crypto.vue'),
-  },
-  {
-    path: "/index-startup",
-    name: "index-startup",
-    component: () => import('@/pages/index/index-startup.vue'),
-  },
-  {
-    path: "/index-business",
-    name: "index-business",
-    component: () => import('@/pages/index/index-business.vue'),
-  },
-  {
-    path: "/index-seo-agency",
-    name: "index-seo-agency",
-    component: () => import('@/pages/index/index-seo-agency.vue'),
-  },
-  {
-    path: "/index-freelancer",
-    name: "index-freelancer",
-    component: () => import('@/pages/index/index-freelancer.vue'),
-  },
-  {
-    path: "/index-broker",
-    name: "index-broker",
-    component: () => import('@/pages/index/index-broker.vue'),
-  },
-  {
-    path: "/index-developer",
-    name: "index-developer",
-    component: () => import('@/pages/index/index-developer.vue'),
-  },
-  {
-    path: "/index-studio",
-    name: "index-studio",
-    component: () => import('@/pages/index/index-studio.vue'),
-  },
-  {
-    path: "/index-hosting",
-    name: "index-hosting",
-    component: () => import('@/pages/index/index-hosting.vue'),
-  },
-  {
-    path: "/index-service",
-    name: "index-service",
-    component: () => import('@/pages/index/index-service.vue'),
+    name: "home-page",
+    component: () => import('@/bb/home-page.vue'),
   },
   {
     path: "/page-about",

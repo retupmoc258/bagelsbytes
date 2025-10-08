@@ -47,7 +47,7 @@
 </template>
 
 <script setup>
-import navbar from '@/components/navbar/navbar.vue';
+import navbar from '@/bb/navbar.vue';
 import image from '../assets/images/bg/bg-faqs.jpg';
 import shape from '@/components/shape-light.vue';
 import category from '@/components/page-faqs/category.vue';

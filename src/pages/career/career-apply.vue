@@ -51,7 +51,7 @@
 </template>
 
 <script setup>
-import navbar from '@/components/navbar/navbar.vue';
+import navbar from '@/bb/navbar.vue';
 import apply from '@/components/career/career-apply.vue';
 import footers from '@/components/footer/footer.vue';
 import backtotop from '@/components/back-to-top.vue'
