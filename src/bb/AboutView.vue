@@ -1,14 +1,14 @@
 <template>
     <navbar :navLight="'nav-light'" :logoLightBackground=false />
 
-    <section class="bg-half-170 d-table w-100" :style="{ 'background-image': 'url(' + (image) + ')' }">
+    <section class="bg-half-170 bg-primary d-table w-100" :style="{ 'background-image': 'url(' + (image) + ')' }">
         <div class="bg-overlay"></div>
         <div class="container">
             <div class="row mt-5 justify-content-center">
                 <div class="col-12">
                     <div class="heading-title text-center">
                         <h2 class="text-white title title-dark mb-3">About Me</h2>
-                        <p class="para-desc mx-auto text-white-50">Hi, I'm [Your Name]. Let me share my story and how I can help you.</p>
+                        <p class="para-desc mx-auto text-white-50">Hi, I'm Jason. Let me share my story and how I can help you.</p>
                         <div class="mt-4 pt-2">
                             <a href="#my-story" class="btn btn-light">Learn More</a>
                         </div>
@@ -37,13 +37,13 @@
                         <p class="text-muted">
                             I have spent the last 6 years making software solutions for my work, in college courses, in my free time as self-study, and for additional clients
                             who have contacted me for help with their projects.  I have worked on a variety of different projects, using entirely different systems, and each
-                            requiring different expertise.  The main goal of all my projects is to create something that meets the client's needs as simply as possible.  When it
-                            comes to small projects, I believe that simplifying and automating your needs is the number one priority.
+                            requiring different expertise.  The main goal of all my projects is to create something that meets the client's needs as simply as possible.
                         </p>
                         <p class="text-muted mb-0">
                           I believe in making high quality code that is easy to understand and maintain.  I value efficient systems that meet the needs of the client,
                           not necessarily what education teaches students to prioritize (not everyone needs scalable systems, for example).  I believe interfaces should be
-                          tailored to the client and not to the developer (clients need to be able to use the software intuitively).
+                          tailored to the client and not to the developer (clients need to be able to use the software intuitively).  I will always make sure you
+                          know my current skill level so you can make an informed decision.
                         </p>
                     </div>
                 </div>
@@ -54,7 +54,7 @@
 
 
         <!-- Why Work With Me Section -->
-        <div class="container mt-100 mt-60">
+        <div class="container mt-60">
             <div class="row justify-content-center">
                 <div class="col-12 text-center">
                     <div class="section-title mb-4 pb-2">
@@ -125,7 +125,7 @@
 
 <script setup>
 import navbar from '@/bb/navbar.vue';
-import image from '../assets/images/bg/bg-about.jpg';
+import image from '../bb/assets/bg-contact.png';
 import shape from '@/components/shape-light.vue';
 import footers from '@/bb/footer.vue';
 import backtotop from '@/bb/back-to-top.vue'

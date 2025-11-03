@@ -28,7 +28,7 @@
 
 <script setup>
 import navbar from '@/bb/navbar.vue';
-import image from '../assets/images/bg/bg-contact.png';
+import image from './assets/bg-contact.png';
 import shape from '@/components/shape-light.vue';
 import forms from '@/bb/components/form.vue';
 import contactitem from '@/bb/components/contact-item.vue';
