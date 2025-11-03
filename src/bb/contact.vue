@@ -1,5 +1,5 @@
 <template>
-    <navbar :navLight="'nav-light'" :logoLight=true :buttonLight=true />
+    <navbar :navLight="'nav-light'" :logoLightBackground=false />
 
     <!-- Home Start -->
     <section class="bg-half-170 bg-primary d-table w-100"

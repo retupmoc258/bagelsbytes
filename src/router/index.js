@@ -5,12 +5,12 @@ const routes = [
   {
     path: "/",
     name: "home-page",
-    component: () => import('@/bb/home-page.vue'),
+    component: () => import('@/bb/HomeView.vue'),
   },
   {
-    path: "/page-about",
-    name: "page-about",
-    component: () => import('@/pages/page-about.vue'),
+    path: "/about",
+    name: "about-page",
+    component: () => import('@/bb/AboutView.vue'),
   },
   {
     path: "/page-services",

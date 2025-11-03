@@ -1,13 +1,12 @@
 <template>
-        <!-- Navbar STart -->
+        <!-- Navbar Start -->
         <header id="topnav" class="defaultscroll sticky">
                 <div class="container">
                         <!-- Logo container-->
                         <div>
-                                <router-link class="logo" to="/">
-                                        <img src="../bb/assets/bagels-bytes-icon.png" class="logo-light-mode" style="height:24px" alt="Bagel's Bytes">
-                                        <img src="../bb/assets/bagels-bytes-icon.png" class="logo-dark-mode" style="height:24px" alt="Bagel's Bytes">
-                                        <span class="logo-text">Bagel's Bytes</span>
+                                <router-link class="logo" id="logo" to="/">
+                                        <img src="../bb/assets/bagels-bytes-icon.png" style="height:24px" alt="Bagel's Bytes">
+                                        <span id="logo-text" class="logo-text logo-color-change" :class="logoLightBackground ? 'logo-dark-text' : 'logo-light-text'">Bagel's Bytes</span>
                                 </router-link>
                         </div>
 
@@ -74,16 +73,11 @@ const menu = ref('')
 const openMenu = ref('')
 const toggle = ref(false)
 
-defineProps({
-        logoLight: {
+const props = defineProps({
+        logoLightBackground: {
                 type: Boolean,
                 required: false,
-                default: false
-        },
-        buttonLight: {
-                type: Boolean,
-                required: false,
-                default: false
+                default: true
         },
         navLight: {
                 type: String,
@@ -118,8 +112,12 @@ const handleScroll = () => {
         const navbar = document.getElementById("topnav");
         if (window.scrollY >= 50) {
                 navbar.classList.add("nav-sticky");
+                document.getElementById("logo-text").classList.add("logo-dark-text");
         } else {
                 navbar.classList.remove("nav-sticky");
+                if(!props.logoLightBackground) {
+                  document.getElementById("logo-text").classList.remove("logo-dark-text");
+                }
         }
 }
 </script>
@@ -130,5 +128,16 @@ const handleScroll = () => {
   vertical-align: middle;
   font-weight: 600;
   font-size: 1.1rem;
+}
+
+.logo-light-text {
+  color: #fff;
+}
+
+.logo-color-change {
+  transition: color 0.3s ease;
+}
+.nav-sticky .logo-dark-text {
+  color: #000000; /* Change this to your desired color */
 }
 </style>
