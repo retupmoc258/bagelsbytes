@@ -109,7 +109,7 @@
 import { ref, onMounted } from 'vue';
 import navbar from '@/bb/navbar.vue';
 import relatedblog from '@/components/blogs/blog-related.vue';
-import footers from '@/bb/footer.vue';
+import Footers from '@/bb/components/Footer.vue';
 import backtotop from '@/bb/back-to-top.vue';
 import { useRoute } from 'vue-router';
 import bgimage from '../../assets/images/blog/single.jpg'

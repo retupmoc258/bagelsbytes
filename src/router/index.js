@@ -13,9 +13,9 @@ const routes = [
     component: () => import('@/bb/AboutView.vue'),
   },
   {
-    path: "/page-services",
-    name: "page-services",
-    component: () => import('@/pages/page-services.vue'),
+    path: "/services",
+    name: "services-page",
+    component: () => import('@/bb/ServiceView.vue'),
   },
   {
     path: "/page-team",

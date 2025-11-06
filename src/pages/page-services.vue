@@ -64,7 +64,7 @@ import image from '../assets/images/bg/bg-services.jpg';
 import features from '@/components/business/business-services.vue';
 import cta from '@/components/career-job/career-cta.vue';
 import sponsors from '@/components/page-services/sponsors.vue';
-import footers from '@/bb/footer.vue';
+import Footers from '@/bb/components/Footer.vue';
 import backtotop from '@/bb/back-to-top.vue'
 
 const isActive = ref(true);

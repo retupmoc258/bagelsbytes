@@ -4,8 +4,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 mb-0 mb-md-2 pb-0 pb-md-2">
-                    <a href="/" class="logo-footer">
-                        <img src="../bb/assets/bagels-bytes-icon.png" height="36" alt="Bagel's Bytes">
+                    <a href="/public" class="logo-footer">
+                        <img src="../assets/bagels-bytes-icon.png" height="36" alt="Bagel's Bytes">
                         <span class="text-light ms-2 fw-bold fs-6">Bagel's Bytes</span>
                     </a>
                     <p class="mt-3 text-foot mb-3">Custom software solutions built by a focused team of experts. 

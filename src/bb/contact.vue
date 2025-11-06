@@ -32,7 +32,7 @@ import image from './assets/bg-contact.png';
 import shape from '@/components/shape-light.vue';
 import forms from '@/bb/components/form.vue';
 import contactitem from '@/bb/components/contact-item.vue';
-import footers from '@/bb/footer.vue';
+import Footers from '@/bb/components/Footer.vue';
 import backtotop from '@/bb/back-to-top.vue';
 
 </script>

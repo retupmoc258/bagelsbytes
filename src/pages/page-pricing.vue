@@ -35,7 +35,7 @@ import shape from '@/components/shape-light.vue';
 import pricing from '@/components/page-pricing/pricing.vue';
 import questions from '@/components/hosting/hosting-questions.vue';
 import getintouch from '@/components/get-in-touch.vue';
-import footers from '@/bb/footer.vue';
+import Footers from '@/bb/components/Footer.vue';
 import backtotop from '@/bb/back-to-top.vue'
 
 </script>

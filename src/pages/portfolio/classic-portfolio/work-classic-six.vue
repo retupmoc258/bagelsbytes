@@ -13,7 +13,7 @@
 import navbar from '@/bb/navbar.vue';
 import hero from '@/components/portfolio/portfolio-hero.vue';
 import classicitem from '@/components/portfolio/classic-portfolio/classic-item.vue';
-import footers from '@/bb/footer.vue';
+import Footers from '@/bb/components/Footer.vue';
 import backtotop from '@/bb/back-to-top.vue'
 
 </script>

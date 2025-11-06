@@ -42,7 +42,7 @@ import shape from '@/components/shape-light.vue';
 import teams from '@/components/page-team/teams.vue';
 import cta from '@/components/page-team/cta.vue';
 import question from '@/components/page-team/team-question.vue';
-import footers from '@/bb/footer.vue';
+import Footers from '@/bb/components/Footer.vue';
 import backtotop from '@/bb/back-to-top.vue'
 
 </script>

@@ -28,7 +28,7 @@
 import navbar from '@/bb/navbar.vue';
 import image from '../../assets/images/bg/bg-lines-one.png';
 import payment from '@/components/profile/profile-payment.vue';
-import footers from '@/bb/footer.vue';
+import Footers from '@/bb/components/Footer.vue';
 import backtotop from '@/bb/back-to-top.vue'
 
 </script>

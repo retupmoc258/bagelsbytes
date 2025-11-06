@@ -125,7 +125,7 @@
 <script setup>
 import navbar from '@/bb/navbar.vue';
 import image from './assets/bg-developer.png';
-import footers from '@/bb/footer.vue';
+import Footers from '@/bb/components/Footer.vue';
 import backtotop from '@/bb/back-to-top.vue'
 import VueTypewriterEffect from "vue-typewriter-effect";
 import Services from "@/bb/components/Services.vue";

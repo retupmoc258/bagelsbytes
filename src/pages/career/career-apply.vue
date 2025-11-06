@@ -53,7 +53,7 @@
 <script setup>
 import navbar from '@/bb/navbar.vue';
 import apply from '@/components/career/career-apply.vue';
-import footers from '@/bb/footer.vue';
+import Footers from '@/bb/components/Footer.vue';
 import backtotop from '@/bb/back-to-top.vue'
 
 </script>

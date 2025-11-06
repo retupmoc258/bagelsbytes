@@ -37,7 +37,7 @@
 import navbar from '@/bb/navbar.vue';
 import image from '../../assets/images/bg/bg-profile.jpg';
 import detail from '@/components/profile/profile-detail.vue';
-import footers from '@/bb/footer.vue';
+import Footers from '@/bb/components/Footer.vue';
 import backtotop from '@/bb/back-to-top.vue'
 
 </script>

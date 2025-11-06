@@ -102,7 +102,7 @@ import work2 from '../../assets/images/work/2.jpg';
 import work3 from '../../assets/images/work/3.jpg';
 import work4 from '../../assets/images/work/4.jpg';
 import feather from 'feather-icons';
-import footers from '@/bb/footer.vue';
+import Footers from '@/bb/components/Footer.vue';
 import backtotop from '@/bb/back-to-top.vue'
 import image from '../../assets/images/work/1.jpg';
 import image2 from '../../assets/images/work/2.jpg';

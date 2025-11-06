@@ -40,7 +40,7 @@
 import navbar from '@/bb/navbar.vue';
 import image from '../../assets/images/bg/bg-blog.jpg';
 import blog from '@/components/blogs/blogs.vue';
-import footers from '@/bb/footer.vue';
+import Footers from '@/bb/components/Footer.vue';
 import backtotop from '@/bb/back-to-top.vue'
 
 </script>
