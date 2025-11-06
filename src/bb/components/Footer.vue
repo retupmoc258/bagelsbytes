@@ -186,6 +186,11 @@ onMounted(() => {
 .footer-compressed {
     padding-top: 60px !important;
     padding-bottom: 30px !important;
+
+  .footer-list {
+    transform: translateZ(0); /* Forces hardware acceleration */
+    /*  will-change: transform;   Hints to the browser that this element will change */
+  }
     
     .footer-list li {
         margin-bottom: 0.5rem;
