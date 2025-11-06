@@ -182,6 +182,7 @@
     </div>
 
     <!-- Consulting Section -->
+    <!-- Causing weird line issues TODO fix this-->
     <div class="container mt-100 mt-60">
       <div class="row align-items-center">
         <div class="col-lg-6 col-md-6">
