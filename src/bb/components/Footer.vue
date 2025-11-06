@@ -124,7 +124,7 @@ const date = ref(new Date().getFullYear());
 const company = ref([
     { name: 'About Us', link: '/about' },
     { name: 'Services', link: '/services' },
-    { name: 'Portfolio', link: '/portfolio' },
+    //{ name: 'Portfolio', link: '/portfolio' },
     { name: 'Blog', link: '/blog' },
     { name: 'Contact', link: '/contact' }
 ])

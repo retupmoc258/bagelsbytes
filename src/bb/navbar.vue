@@ -37,8 +37,9 @@
                                         <li :class="activeIndex === '/services' ? 'active' : ''">
                                                 <router-link to="/services" class="sub-menu-item">Services</router-link>
                                         </li>
-                                        
-                                        <li class="has-submenu parent-parent-menu-item"
+
+                                        <!-- Portfolio menu, currently removed -->
+                                        <!--li class="has-submenu parent-parent-menu-item"
                                                 :class="['/portfolio'].includes(openMenu) || ['/work-detail'].includes(activeIndex) ? 'active' : ''">
                                                 <router-link to="" @click="submenu(openMenu === '/portfolio' ? '' : '/portfolio')">
                                                         Portfolio
@@ -52,7 +53,7 @@
                                                                 <router-link to="/work-detail" class="sub-menu-item">Project Details</router-link>
                                                         </li>
                                                 </ul>
-                                        </li>
+                                        </li-->
 
                                         <li :class="activeIndex === '/contact' ? 'active' : ''">
                                                 <router-link to="/contact" class="sub-menu-item">Contact</router-link>
@@ -69,8 +70,8 @@
 import { ref, computed, onMounted, onUnmounted, defineProps } from 'vue';
 
 const activeIndex = computed(() => window.location.pathname)
-const menu = ref('')
-const openMenu = ref('')
+//const menu = ref('')
+//const openMenu = ref('')
 const toggle = ref(false)
 
 const props = defineProps({
@@ -95,10 +96,13 @@ onUnmounted(() => {
         window.removeEventListener('scroll', handleScroll);
 });
 
+/*
 const submenu = (item) => {
         menu.value = !menu.value
         openMenu.value = item
 }
+
+ */
 
 const handler = () => {
         toggle.value = !toggle.value
